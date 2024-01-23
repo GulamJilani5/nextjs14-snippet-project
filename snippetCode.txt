@@ -1,0 +1,58 @@
+## 1) Server Action(SA) - whenever we want to mutate(CRUD) data with db we need server actions.
+   In this project SA have been used in Server Component(SC) and Client Component(CC).
+
+## 2) Using client component inside server component.
+  Showing(importing) client component inside server component.
+  Fetching data in server component and passing the response data from the server component to client
+  component as props. And client component can use the response data with hooks and event handlers.
+
+## 3) Monaco editor
+
+## 4) Defining And Using(Calling) Server Actions for client component
+       DEFINING Two Ways 
+                1) Define the SA in SC and pass it props to the client component
+                2) Define the SA in a separate file and import it into the lcient component
+      CALLING Two Ways 
+                1) Using 'form action' with 'bind' mehtod
+                2) Uisng 'onclick handler' on button with 'startTransition' function.
+
+## 5) startTransition and bind method
+   
+       startTransition(scope) - Usefull in a scenario when we don't want to show any UI before 
+                                scope function (state change happened here) has happened.
+       
+       bind -  Create a function with certain arguments pre-set to that function.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+echo "# nextjs14-snippet-project" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/GulamJilani5/nextjs14-snippet-project.git
+git push -u origin main
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/GulamJilani5/nextjs14-snippet-project.git
+git branch -M main
+git push -u origin main
